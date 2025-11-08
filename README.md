@@ -1,33 +1,92 @@
-# Welcome to React three fiber Minecraft
+# Minecraft Clone in React & Three.js 🧊
 
-This project is just me trying to mimic Minecraft in React.
-How i did it can be seen in this Youtube video:
-[![Video preview](https://img.youtube.com/vi/qpOZup_3P_A/0.jpg)](https://www.youtube.com/watch?v=qpOZup_3P_A)
+A 3D Minecraft-inspired sandbox game built from the ground up in the browser using React, Three.js, and the React Three Fiber ecosystem. This project serves as a deep dive into 3D rendering, physics, and state management on the web.
 
-Demo: https://minecraft-freecodecamp.vercel.app/
+## 🚀 Getting Started
 
-## How to play?
+Follow these instructions to get a local copy of the project up and running for development and testing purposes.
 
-Currently it has 5 types of blocks: Grass, Wood, Log, Glass and Dirt.
-You switch blocks with numbers 1-5 on your keyboard.
-You navigate the world with the mouse and WASD.
-You can click to add blocks and Alt+Click to remove blocks.
-You world is stored in your browsers local storage.
+### Prerequisites
 
-![Preview](preview.png 'Preview')
+- [Node.js](https://nodejs.org/) (v16 or later)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
 
-## Want to extend, develop modify?
+### Installation
 
-If you do so or just build a cool world. Please share it with me dbark@hey.com or https://twitter.com/barelydaniel
+1.  **Clone the Repository**
+    ```bash
+    git clone https://github.com/Ehiz-js/minecraft-clone-test.git
+    ```
 
-In the project directory, you can run:
+2.  **Navigate to the Project Directory**
+    ```bash
+    cd minecraft-clone-test
+    ```
 
-### `npm install && npm start`
+3.  **Install Dependencies**
+    ```bash
+    npm install
+    ```
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Usage
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+To start the development server, run the following command. The application will automatically open in your default browser at `http://localhost:3000`.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+```bash
+npm start
+```
+
+You will see a blank canvas, which is the foundation for the 3D world. Development is in its early stages, with features being actively built out.
+
+## ✨ Features & Roadmap
+
+This project is currently under development. The goal is to implement the following features:
+
+-   **Infinite Terrain:** A dynamically generated ground for an expansive world.
+-   **First-Person Controls:** Immersive first-person perspective with camera controls.
+-   **Physics & Gravity:** Player movement and interactions governed by a physics engine.
+-   **Block Management:** Place and destroy various types of cubes.
+-   **State Management:** Efficiently handle world and player state using Zustand.
+-   **Persistent Worlds:** Save and load your creations using LocalStorage.
+
+## 🛠️ Technologies Used
+
+This project is built with a modern frontend stack, leveraging the power of the React and Three.js ecosystems.
+
+| Technology                                               | Description                                        |
+| -------------------------------------------------------- | -------------------------------------------------- |
+| [React](https://reactjs.org/)                            | A JavaScript library for building user interfaces. |
+| [Three.js](https://threejs.org/)                         | A 3D graphics library for creating scenes in a browser. |
+| [React Three Fiber](https://docs.pmnd.rs/react-three-fiber/) | A React renderer for Three.js.                     |
+| [React Three Drei](https://github.com/pmndrs/drei)       | A collection of useful helpers for React Three Fiber. |
+| [React Three Cannon](https://github.com/pmndrs/use-cannon) | Physics bindings for React Three Fiber.            |
+| [Zustand](https://github.com/pmndrs/zustand)             | A small, fast, and scalable state-management solution. |
+
+## 🤝 Contributing
+
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1.  **Fork the Project**
+2.  **Create your Feature Branch** (`git checkout -b feature/AmazingFeature`)
+3.  **Commit your Changes** (`git commit -m 'Add some AmazingFeature'`)
+4.  **Push to the Branch** (`git push origin feature/AmazingFeature`)
+5.  **Open a Pull Request**
+
+## 📄 License
+
+This project is not currently under a specific license. Please refer to GitHub's standard licensing terms.
+
+## 👤 Author
+
+Feel free to connect with me!
+
+-   **LinkedIn**: `[Your LinkedIn Profile]`
+-   **Twitter**: `[@YourTwitterHandle]`
+
+<br/>
+
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Three.js](https://img.shields.io/badge/three.js-000000?style=for-the-badge&logo=three.js&logoColor=white)
+![Node.js](https://img.shields.io/badge/node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+
+[![Readme was generated by Dokugen](https://img.shields.io/badge/Readme%20was%20generated%20by-Dokugen-brightgreen)](https://www.npmjs.com/package/dokugen)
